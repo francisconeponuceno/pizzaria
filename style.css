@@ -140,3 +140,149 @@ html {
 }
 
 
+/* fim estilo da classe first-section */
+
+/* inicio do estilo classe sobre nós */
+
+.sobre-nos{
+    background-color: #1f1e1f;
+    width: 100%;
+    padding-bottom: 5rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sobre-nos img {
+    width: 400px;
+    height: 400px;
+    margin-top: 10rem;
+    margin-left: 10rem;
+    border: 2px solid rgb(155, 155, 155);
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contentsobre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contentsobre h2 {
+    font-size: 6rem;
+    margin-bottom: 1rem;
+}
+
+.contentsobre p {
+    text-align: center;
+    font-size: 1.8rem;
+    width: 600px;
+}
+
+/* fim do estilo classe sobre nós */
+
+/* inicio do estilo cardápio */
+
+.cardapio {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(12, 12, 12, 0.8);
+}
+
+.cardapio h2 {
+    font-size: 5rem;
+    color: #e6e6e6;
+    text-transform: uppercase;
+}
+
+.itens-cardapio {
+    width: 80%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, mimax(250px, 550px));
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
