@@ -361,11 +361,17 @@ footer {
         font-size: 40%;
     }
 
+
+@media (max-width: 695px) {
+        html {
+            font-size: 30%;
+        }
+
     .content {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        padding: 0px 40px;
+        padding: 0px 30px;
     }
 
     .content .list-menu {
@@ -386,12 +392,6 @@ footer {
         width: 30px;
         height: 30px;
     }
-
-
-
-
-
-
 
     .itens-cardapio {
         grid-template-columns: repeat(2,minmax(50px, 350px));
