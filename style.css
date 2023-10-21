@@ -361,12 +361,6 @@ footer {
         font-size: 40%;
     }
 
-
-@media (max-width: 695px) {
-        html {
-            font-size: 30%;
-        }
-
     .content {
         display: flex;
         flex-direction: row;
