@@ -358,14 +358,14 @@ footer {
 
 @media (max-width: 768px) {
     html {
-        font-size: 40%;
+        font-size: 45%;
     }
 
     .content {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        padding: 0px 30px;
+        padding: 0px 40px;
     }
 
     .content .list-menu {
@@ -375,7 +375,7 @@ footer {
     .one,
     .two,
     .three {
-        width: 80;
+        width: 80%;
         height: 2px;
         background-color: white;
         margin: 6px auto;
@@ -396,6 +396,42 @@ footer {
     }
 }
 
+@media (max-width: 715px) {
+    html {
+        font-size: 30%;
+    }
+
+    .itens-cardapio {
+        grid-template-columns: repeat(1, minmax(50px, 350px));
+    }
+
+    .contatos .contatos-secao {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 5px;
+        font-size: 2.8rem;
+    }
+
+    .sobre-nos img {
+        width: 380px;
+        height: 380px;
+        margin-top: 10rem;
+        margin-left: 13rem;
+        
+        border: 2px solid rgb(155, 155, 155);
+    }
+
+    .contentsobre p {
+        text-align: center;
+        font-size: 2.8rem;
+        width: 500px;
+    }
+
+    .itens-cardapio .info h4 {
+        margin-left: 25rem;
+    }
+
+}
 
 
 
