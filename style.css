@@ -413,8 +413,8 @@ footer {
     }
 
     .sobre-nos img {
-        width: 340px;
-        height: 340px;
+        width: 330px;
+        height: 330px;
         margin-top: 10rem;
         margin-left: 3rem;
         
@@ -424,7 +424,7 @@ footer {
     .contentsobre p {
         text-align: center;
         font-size: 2.9rem;
-        width: 370px;
+        width: 330px;
     }
 
     .itens-cardapio .info h4 {
@@ -443,7 +443,7 @@ footer {
     }
 
     .btn {
-        width: 350px;
+        width: 330px;
         
         display: flex;
         justify-content: space-between;
@@ -459,6 +459,10 @@ footer {
 
     .content .logo h3 {
         font-size: 5rem;
+    }
+
+    .cardapio .itens-cardapio .info h3 {
+        font-size: 3rem;
     }
 
 }
