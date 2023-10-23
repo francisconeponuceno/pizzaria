@@ -402,6 +402,10 @@ footer {
         font-size: 30%;
     }
 
+    body {
+        width: 393px;
+    }
+
     .content {
         width: 391px;
     }
