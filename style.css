@@ -400,6 +400,7 @@ footer {
 @media (max-width: 715px) {
     html {
         font-size: 30%;
+        width: 393px;
     }
 
     body {
