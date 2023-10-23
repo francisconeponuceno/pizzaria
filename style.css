@@ -362,6 +362,7 @@ footer {
     }
 
     .content {
+        
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -401,8 +402,16 @@ footer {
         font-size: 30%;
     }
 
+    .content {
+        width: 391px;
+    }
+
     .itens-cardapio {
         grid-template-columns: repeat(1, minmax(50px, 350px));
+    }
+
+    .cardapio {
+        width: 393px;
     }
 
     .contatos .contatos-secao {
@@ -410,6 +419,10 @@ footer {
         align-items: center;
         margin-bottom: 5px;
         font-size: 2.8rem;
+    }
+
+    .sobre-nos {
+        width: 393px;
     }
 
     .sobre-nos img {
@@ -453,8 +466,16 @@ footer {
         font-size: 4rem;
     }
 
+    .first-section {
+        width: 393px;
+    }
+
     footer h4 {
         font-size: 2rem;
+    }
+
+    footer {
+        width: 393px;
     }
 
     .content .logo h3 {
@@ -463,6 +484,10 @@ footer {
 
     .cardapio .itens-cardapio .info h3 {
         font-size: 3rem;
+    }
+
+    .contatos {
+        width: 393px;
     }
 
 }
