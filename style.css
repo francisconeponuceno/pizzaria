@@ -420,6 +420,7 @@ footer {
     }
 
     .contatos .contatos-secao {
+        width: 393px;
         flex-direction: column;
         align-items: center;
         margin-bottom: 5px;
