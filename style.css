@@ -400,11 +400,11 @@ footer {
 @media (max-width: 715px) {
     html {
         font-size: 30%;
-        width: 393px;
+        width: 392px;
     }
 
     body {
-        width: 393px;
+        width: 392px;
     }
 
     .content {
@@ -447,12 +447,13 @@ footer {
     }
 
     .itens-cardapio .info h4 {
-        margin-left: 20rem;
+        width: 390;
+        margin-left: 10rem;
         font-size: 2.8rem;
     }
 
     .itens-cardapio .info h4 span {
-        
+        width: 100px;
         font-size: 2.8rem;
     }
 
