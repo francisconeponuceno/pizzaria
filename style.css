@@ -408,11 +408,12 @@ footer {
     }
 
     .content {
-        width: 391px;
+        width: 393px;
     }
 
     .itens-cardapio {
-        grid-template-columns: repeat(1, minmax(50px, 350px));
+        
+        grid-template-columns: repeat(1, minmax(45px, 345px));
     }
 
     .cardapio {
