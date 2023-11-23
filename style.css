@@ -334,21 +334,30 @@ footer {
 /* fim do estilo footer */
 
 /* estilo dialog */
-dialog {
+.endr {
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: aqua;
     width: 500px;
-    height: 300px;
+    max-width: 90%;
     margin: auto;
     text-align: center;
+    padding: 1.2rem;
+    border-radius: 0.5rem;
+    position: fixed;
 }
-dialog input {
-    width: 250px;
-    display: flex;
+.endr input {
+    width: 450px;
+    align-items: center;
     border: solid 1px #1f1e1f;
-    padding: 5px;
-    
+    padding: 6px;
+    margin: 1px;
+    border-radius: 3px;
+   
 }
 
-dialog button {
+.endr button {
     padding: 10px;
     background-color: #ffc506;
     border-radius: 10px;

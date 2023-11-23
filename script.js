@@ -8,7 +8,7 @@ menuToggle.addEventListener('click', () => {
 });
 
 const botao = document.querySelector("button.pedir")
-const modal = document.querySelector('dialog')
+const modal = document.querySelector('.endr')
 
 function pedir() {
     modal.show()
