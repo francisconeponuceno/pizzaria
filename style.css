@@ -346,6 +346,7 @@ footer {
     padding: 1.2rem;
     border-radius: 0.5rem;
     position: fixed;
+    display: none;
 }
 .endr input {
     width: 450px;
