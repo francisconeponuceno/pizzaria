@@ -334,6 +334,10 @@ footer {
 /* fim do estilo footer */
 
 /* estilo dialog */
+
+.abrir {
+    display: none;
+}
 .endr {
     left: 50%;
     top: 50%;
@@ -346,8 +350,13 @@ footer {
     padding: 1.2rem;
     border-radius: 0.5rem;
     position: fixed;
-    display: none;
+    
 }
+
+.active {
+    display: flex;
+}
+
 .endr input {
     width: 450px;
     align-items: center;
@@ -355,14 +364,20 @@ footer {
     padding: 6px;
     margin: 1px;
     border-radius: 3px;
-   
+}
+
+.endr h1 {
+    font-size: 2rem;
+    color: white;
 }
 
 .endr button {
     padding: 10px;
+    margin-top: 3px;
     background-color: #ffc506;
     border-radius: 10px;
     cursor: pointer;
+    font-weight: bold;
     
 }
 

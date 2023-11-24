@@ -8,13 +8,13 @@ menuToggle.addEventListener('click', () => {
 });
 
 const botao = document.querySelector("button.pedir")
-const modal = document.querySelector('.endr')
+const modal = document.querySelector(".abrir")
 
 function pedir() {
-    modal.show()
+    modal.classList.add('active')
 }
 
 function finalizar() {
-    modal.close()
+    modal.classList.remove('active')
     window.alert('Seu pedido chegarar em 50 minutos')
 }
