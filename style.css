@@ -358,7 +358,7 @@ footer {
 }
 
 .endr input {
-    width: 450px;
+    justify-content: center;
     align-items: center;
     border: solid 1px #1f1e1f;
     padding: 6px;
@@ -606,6 +606,14 @@ footer {
     .itens-cardapio .info .pedir {
         width: 100%;
         font-size: 1.5rem;
+    }
+
+    .endr {
+        width: 260px;
+    }
+
+    .abrir {
+        display: none;
     }
 }
 
