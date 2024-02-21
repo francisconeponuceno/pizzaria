@@ -333,54 +333,6 @@ footer {
 }
 /* fim do estilo footer */
 
-/* estilo dialog */
-
-.abrir {
-    display: none;
-}
-.endr {
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    background-color: aqua;
-    width: 500px;
-    max-width: 90%;
-    margin: auto;
-    text-align: center;
-    padding: 1.2rem;
-    border-radius: 0.5rem;
-    position: fixed;
-    
-}
-
-.active {
-    display: flex;
-}
-
-.endr input {
-    justify-content: center;
-    align-items: center;
-    border: solid 1px #1f1e1f;
-    padding: 6px;
-    margin: 1px;
-    border-radius: 3px;
-}
-
-.endr h1 {
-    font-size: 2rem;
-    color: white;
-}
-
-.endr button {
-    padding: 10px;
-    margin-top: 3px;
-    background-color: #ffc506;
-    border-radius: 10px;
-    cursor: pointer;
-    font-weight: bold;
-    
-}
-
 /* inicio das medias queries */
 @media (max-width: 1200px) {
     .main {
@@ -608,13 +560,7 @@ footer {
         font-size: 1.5rem;
     }
 
-    .endr {
-        width: 260px;
-    }
-
-    .abrir {
-        display: none;
-    }
+    
 }
 
 
