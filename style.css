@@ -281,6 +281,28 @@ html {
 }
 /* fim do estilo cardápio */
 
+/* inicio do estilo carrinho */
+
+.carrinho {
+    text-align: center;
+    font-size: 2rem;
+    background-color: #585858;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    
+}
+
+.carrinho button {
+    font-size: 3rem;
+    background-color: #585858;
+    color: #e6e6e6;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+
 /* inicio do estilo Contados */
 
 .contatos {

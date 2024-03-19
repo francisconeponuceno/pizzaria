@@ -7,4 +7,7 @@ menuToggle.addEventListener('click', () => {
     show = !show;
 });
 
-
+const cart = document.getElementById('cart-btn')
+cart.addEventListener('click',function(){
+    alert('deu certo')
+})
